@@ -85,4 +85,10 @@ document.addEventListener("DOMContentLoaded", () => {
     };
     //Create dblclick event listener for `divHeader`
     divHeader[0].addEventListener('dblclick', headerClick, false);
+    //Grab .list-btn
+    let liBtn = document.getElementsByClassName("list-btn");
+    //Create ol element
+    let ol = document.createElement('ol');
+    //Add ol to body
+    body.appendChild(ol);
 });
