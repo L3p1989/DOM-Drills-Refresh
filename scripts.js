@@ -105,6 +105,10 @@ document.addEventListener("DOMContentLoaded", () => {
         liNum++;
         //Appends li to ol
         ol.appendChild(li);
+        //Creates event listener that removes li when dblclicked
+        li.addEventListener('dblclick', () => {
+            li.remove()
+        })
     });
     //Creates click event that changes colors of li's when clicked
     ol.addEventListener('click', headerClick, false);
