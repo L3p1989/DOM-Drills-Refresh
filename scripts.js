@@ -74,4 +74,6 @@ document.addEventListener("DOMContentLoaded", () => {
         let randomizer = Math.floor((Math.random() * colorArray.length));
         return colorArray[randomizer];
     };
+    //Grab .header-container
+    let divHeader = document.getElementsByClassName('header-container');
 });
