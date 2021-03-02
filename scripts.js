@@ -103,7 +103,6 @@ document.addEventListener("DOMContentLoaded", () => {
         li.appendChild(liText);
         //This will make liNum count up
         liNum++;
-        console.log(liNum)
         //Appends li to ol
         ol.appendChild(li);
     })
