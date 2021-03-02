@@ -76,4 +76,11 @@ document.addEventListener("DOMContentLoaded", () => {
     };
     //Grab .header-container
     let divHeader = document.getElementsByClassName('header-container');
+    //headerClick function that uses `randomColor` to change header text color on dblclick
+    let headerClick = (e) => {
+        //if not parent element change color of text otherwise text color remains the same
+        e.target !== e.currentTarget ? e.target.style.color = randomColor() : e.target.style.color = e.target.style.color;
+    };
+    //Create dblclick event listener for `divHeader`
+    divHeader[0].addEventListener('dblclick', headerClick, false);
 });
