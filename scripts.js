@@ -54,4 +54,16 @@ document.addEventListener("DOMContentLoaded", () => {
     h6.appendChild(h6Text);
     //Add `h6` to `div`
     div.appendChild(h6);
+    //Give `h1` className "h1"
+    h1.className = 'h1';
+    //Give `h2` className "h2"
+    h2.className = 'h2';
+    //Give `h3` className "h3"
+    h3.className = 'h3';
+    //Give `h4` className "h4"
+    h4.className = 'h4';
+    //Give `h5` className "h5"
+    h5.className = 'h5';
+    //Give `h6` className "h6"
+    h6.className = 'h6';
 });
