@@ -91,4 +91,20 @@ document.addEventListener("DOMContentLoaded", () => {
     let ol = document.createElement('ol');
     //Add ol to body
     body.appendChild(ol);
+    //Adds a variable to count the li number
+    let liNum = 1;
+    //Create click event listener for `liBtn`
+    liBtn[0].addEventListener('click', () => {
+        //Create li element
+        let li = document.createElement('li');
+        //Creates a textNode that will apply to each li created
+        let liText = document.createTextNode('This is list item ' + liNum);
+        //Add liText to created li
+        li.appendChild(liText);
+        //This will make liNum count up
+        liNum++;
+        console.log(liNum)
+        //Appends li to ol
+        ol.appendChild(li);
+    })
 });
