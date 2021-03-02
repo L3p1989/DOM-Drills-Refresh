@@ -1,0 +1,24 @@
+/*Give h1 color red*/
+.h1 {
+  color: red;
+}
+/*Give h2 color orange*/
+.h2 {
+  color: orange;
+}
+/*Give h3 color yellow*/
+.h3 {
+  color: yellow;
+}
+/*Give h4 color green*/
+.h4 {
+  color: green;
+}
+/*Give h5 color blue*/
+.h5 {
+  color: blue;
+}
+/*Give h6 color indigo*/
+.h6 {
+  color: indigo;
+}
