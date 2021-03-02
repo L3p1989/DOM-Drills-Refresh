@@ -105,5 +105,7 @@ document.addEventListener("DOMContentLoaded", () => {
         liNum++;
         //Appends li to ol
         ol.appendChild(li);
-    })
+    });
+    //Creates click event that changes colors of li's when clicked
+    ol.addEventListener('click', headerClick, false);
 });
