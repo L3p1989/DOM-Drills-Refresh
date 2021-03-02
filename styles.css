@@ -22,3 +22,7 @@
 .h6 {
   color: indigo;
 }
+/*disable text highlighting in body*/
+body {
+  user-select: none;
+}
