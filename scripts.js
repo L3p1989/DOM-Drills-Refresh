@@ -12,8 +12,10 @@ document.addEventListener("DOMContentLoaded", () => {
     h1.appendChild(h1Text);
     //Add `h1` inside `div`
     div.appendChild(h1);
+    //Grab body element
+    let body = document.body;
     //Add `div` to `body`
-    document.body.appendChild(div);
+    body.appendChild(div);
     //Create `h2`
     let h2 = document.createElement('h2');
     //Create text "This is an h2"
