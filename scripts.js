@@ -66,4 +66,12 @@ document.addEventListener("DOMContentLoaded", () => {
     h5.className = 'h5';
     //Give `h6` className "h6"
     h6.className = 'h6';
+    //Function that returns a random color out of 8 options
+    let randomColor = () => {
+        //Array of 8 colors
+        let colorArray = ["red", "orange", "yellow", "green", "blue", "indigo", "violet", "purple"];
+        //Randomizes
+        let randomizer = Math.floor((Math.random() * colorArray.length));
+        return colorArray[randomizer];
+    };
 });
